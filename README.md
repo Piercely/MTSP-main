@@ -21,13 +21,13 @@
 >
 > - pip换源：
 >
-> - ~~~
+> - ~~~shell
 >   pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 >   ~~~
 >
 > - 切换到项目文件夹下，下载依赖：
 >
-> - ~~~
+> - ~~~shell
 >   pip install -r requirements.txt
 >   ~~~
 >
@@ -54,9 +54,9 @@
 >
 >- npm换源：
 >
->- ~~~
+>- ~~~shell
 >  npm install -g cnpm --registry=https://registry.npm.taobao.org
->  ~~~
+>  ~~~shell
 >
 >- 切换到项目文件夹下，下载依赖：
 >
@@ -66,7 +66,7 @@
 >
 >🚀**第二步 运行前端**
 >
->- ~~~
+>- ~~~shell
 >  npm run dev
 >  ~~~
 
